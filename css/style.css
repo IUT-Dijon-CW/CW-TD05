@@ -1,0 +1,116 @@
+body
+{
+	font-family: arial;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+input, textarea, select
+{
+	padding: 10px;
+}
+
+.header
+{
+	margin-top: 20px;
+	
+	padding: 50px 20px 50px 300px;
+	
+	background-color: #CCC1DA;
+	background-image: url(../img/logo.png);
+	background-position : 50px;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	
+	color: #FFFFFF;
+	font-size: 30pt;
+	
+	text-transform: uppercase;
+}
+
+.header p
+{
+	margin: 0px;
+}
+
+.header .bigger
+{
+	font-size: 40pt;
+}
+
+.content
+{
+	margin: 20px;
+	text-align: center;
+}
+
+.content h1
+{
+	text-transform: uppercase;
+	font-size: 14pt;
+	color: #563B77;
+}
+
+.content titre
+{
+	text-transform: uppercase;
+	font-size: 12pt;
+	color: #563B77;
+}
+
+.question
+{
+	margin: 20px;
+	padding: 10px;
+}
+
+.question:nth-child(2n)
+{
+	background-color: #EEEEEE;
+}
+
+table
+{
+	margin: auto;
+}
+
+td, th
+{
+	padding: 10px;
+}
+
+th
+{
+	text-align: left;
+	
+	font-weight: normal;
+	
+	background-color: #CCC1DA;
+}
+
+tr:nth-child(2n)
+{
+	background-color: #ECE7F2;
+}
+
+tr:first-child th
+{
+	text-align: left;
+}
+
+#apercuImage
+{
+	display: inline-block;
+	vertical-align: top;
+
+	width: 300px;
+	height: 300px;
+
+	border: 1px solid #AAAAAA;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
